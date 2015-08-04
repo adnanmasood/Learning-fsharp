@@ -2,6 +2,7 @@ Source Code for the book.
 
 #Learning F# Functional Data Structures and Algorithms
 ###Get started with F# and explore functional programming paradigm with data structures and algorithms
+##### Adnan Masood, PhD.
 
 F# is a multi-paradigm programming language that
 encompasses object-oriented, imperative, and functional
@@ -32,20 +33,12 @@ concepts, and a basic understanding of the algorithms and
 data structures in .NET environments using the C# language
 and BCL (Base Class Library), would be helpful.
 
-
 ###What you will learn from this book
-Familiarize yourself with the functional programming nature of F# and explore its fundamentals
-
-Utilize data structures available in F# and apply recursion and lazy evaluation
-
-Gain insights into functional programming paradigms; dissect F# code and analyze code available in community projects
-
-Build abstract data structures and utilize powerful optimization techniques such as memoization
-
-Explore and test built-in F# bespoke data structures and algorithms
-
-Become resourceful and learn how to easily reuse libraries contributed by the C# and F# community
-
-Understand the trade-offs in selecting purely functional (persistent) over mutable data structures
-
-Implement custom ADT (Abstract Data Type), and discover parallel programming and asynchrony within F#
+* Familiarize yourself with the functional programming nature of F# and explore its fundamentals
+* Utilize data structures available in F# and apply recursion and lazy evaluation
+* Gain insights into functional programming paradigms; dissect F# code and analyze code available in community projects
+* Build abstract data structures and utilize powerful optimization techniques such as memoization
+* Explore and test built-in F# bespoke data structures and algorithms
+* Become resourceful and learn how to easily reuse libraries contributed by the C# and F# community
+* Understand the trade-offs in selecting purely functional (persistent) over mutable data structures
+* Implement custom ADT (Abstract Data Type), and discover parallel programming and asynchrony within F#
