@@ -1,6 +1,6 @@
-Source Code:
-#Learning F# Functional Data Structures and Algorithms
+Source Code for the book.
 
+#Learning F# Functional Data Structures and Algorithms
 ###Get started with F# and explore functional programming paradigm with data structures and algorithms
 
 F# is a multi-paradigm programming language that
