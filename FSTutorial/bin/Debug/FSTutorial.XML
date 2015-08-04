@@ -1,0 +1,554 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doc>
+<assembly><name>FSTutorial</name></assembly>
+<members>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:FSTutorial.ReadFile">
+<summary>
+ Type that implements IDisposable
+</summary>
+</member>
+<member name="T:FSTutorial.BoilerPlateForForm">
+
+</member>
+<member name="T:FSTutorial.OData">
+
+</member>
+<member name="T:FSTutorial.DatabaseAccess">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:FSTutorial.Events">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:FSTutorial.ParallelArrayProgramming">
+
+</member>
+<member name="P:FSTutorial.UnitsOfMeasure.mile.asMeter">
+<summary>
+ Conversion factor mile to meter: meter is defined in SI.UnitNames
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:FSTutorial.UnitsOfMeasure">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:FSTutorial.PatternMatching.Employee">
+<summary>
+ define a discriminated union of 3 different kinds of employees
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:FSTutorial.PatternMatching.Person">
+<summary>
+ A record for a person&apos;s first and last name
+</summary>
+</member>
+<member name="M:FSTutorial.PatternMatching.findDaveWithOpenPosition(Microsoft.FSharp.Collections.FSharpList{FSTutorial.PatternMatching.Employee})">
+<summary>
+ find all managers/executives named &quot;Dave&quot; who do not have any reports
+</summary>
+</member>
+<member name="M:FSTutorial.PatternMatching.countReports(FSTutorial.PatternMatching.Employee)">
+<summary>
+ count everyone underneath the employee in the management hierarchy, including the employee
+</summary>
+</member>
+<member name="T:FSTutorial.PatternMatching">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="M:FSTutorial.OptionTypes.ShippingCalculator.customerShippingZone(FSTutorial.OptionTypes.Customer)">
+<summary>
+ Return the shipping zone corresponding to the customer&apos;s ZIP code
+ Customer may not yet have a ZIP code or the ZIP code may be invalid
+</summary>
+</member>
+<member name="T:FSTutorial.OptionTypes.ShippingCalculator">
+<summary>
+ Abstract class that computes the shipping zone for the customer&apos;s zip code, 
+ given implementations for the &apos;getState&apos; and &apos;getShippingZone&apos; abstract methods.
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="T:FSTutorial.OptionTypes.Customer">
+<summary>
+ Option values are any kind of value tagged with either &apos;Some&apos; or &apos;None&apos;.
+ They are used extensively in F# code to represent the cases where many other
+ languages would use null references.
+</summary>
+</member>
+<member name="T:FSTutorial.OptionTypes">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:FSTutorial.UnionTypes.Rank.Value">
+<summary>
+ Represents the rank of cards 2 .. 10
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="T:FSTutorial.UnionTypes.Rank">
+<summary>
+ Represents the rank of a playing card
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:FSTutorial.UnionTypes.Suit">
+<summary>
+ Represents the suit of a playing card
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="M:FSTutorial.UnionTypes.showCard(FSTutorial.UnionTypes.Card)">
+<summary>
+ Converts a &apos;Card&apos; object to a string
+</summary>
+</member>
+<member name="P:FSTutorial.UnionTypes.fullDeck">
+<summary>
+ Returns a list representing all the cards in the deck
+</summary>
+</member>
+<member name="T:FSTutorial.UnionTypes">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="M:FSTutorial.RecordTypes.showCard(FSTutorial.RecordTypes.ContactCard)">
+<summary>
+ Converts a &apos;ContactCard&apos; object to a string
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:FSTutorial.RecordTypes">
+
+</member>
+<member name="">
+
+</member>
+<member name="M:FSTutorial.RecursiveFunctions.sumListTailRecHelper(System.Int32,Microsoft.FSharp.Collections.FSharpList{System.Int32})">
+<summary>
+ Make the function tail recursive, using a helper function with a result accumulator
+</summary>
+</member>
+<member name="M:FSTutorial.RecursiveFunctions.sumList(Microsoft.FSharp.Collections.FSharpList{System.Int32})">
+<summary>
+ Computes the sum of a list of integers using recursion.
+</summary>
+</member>
+<member name="M:FSTutorial.RecursiveFunctions.greatestCommonFactor(System.Int32,System.Int32)">
+<summary>
+ Computes the greatest common factor of two integers. 
+</summary>
+</member>
+<member name="M:FSTutorial.RecursiveFunctions.factorial(System.Int32)">
+<summary>
+ Compute the factorial of an integer. Use &apos;let rec&apos; to define a recursive function
+</summary>
+</member>
+<member name="T:FSTutorial.RecursiveFunctions">
+
+</member>
+<member name="">
+
+</member>
+<member name="M:FSTutorial.Sequences.randomWalk(System.Double)">
+<summary>
+ An infinite sequence which is a random walk
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="P:FSTutorial.Sequences.seq3">
+<summary>
+ another array containing only the words &quot;hello&quot; and &quot;world&quot;
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="M:FSTutorial.Sequences.seq1``1">
+<summary>
+ The empty sequence
+</summary>
+</member>
+<member name="T:FSTutorial.Sequences">
+
+</member>
+<member name="P:FSTutorial.Arrays.sumOfLengthsOfWords">
+<summary>
+ Calculates the sum of the lengths of the words that start with &apos;h&apos;
+</summary>
+</member>
+<member name="P:FSTutorial.Arrays.evenNumbersSlice">
+<summary>
+ sub-array extracted using slicing notation
+</summary>
+</member>
+<member name="P:FSTutorial.Arrays.evenNumbers">
+<summary>
+ An array initialized by index and containing the even numbers from 0 to 2000
+</summary>
+</member>
+<member name="P:FSTutorial.Arrays.array4">
+<summary>
+ An array containing only the words &quot;hello&quot; and &quot;world&quot;
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="M:FSTutorial.Arrays.array1``1">
+<summary>
+ The empty array
+</summary>
+</member>
+<member name="T:FSTutorial.Arrays">
+
+</member>
+<member name="F:FSTutorial.DefiningGenericClasses.StateTracker`1.states">
+<summary>
+ Store the states in an array
+</summary>
+</member>
+<member name="P:FSTutorial.DefiningGenericClasses.StateTracker`1.History">
+<summary>
+ Get the entire list of historical states
+</summary>
+</member>
+<member name="P:FSTutorial.DefiningGenericClasses.StateTracker`1.Current">
+<summary>
+ Get the latest state
+</summary>
+</member>
+<member name="M:FSTutorial.DefiningGenericClasses.StateTracker`1.UpdateState(`0)">
+<summary>
+ Add a new element to the list of states
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="P:FSTutorial.DefiningGenericClasses.tracker">
+<summary>
+ An &apos;int&apos; instance of the state tracker class. Note that the type parameter is inferred.
+</summary>
+</member>
+<member name="T:FSTutorial.DefiningGenericClasses">
+
+</member>
+<member name="F:FSTutorial.DefiningClasses.Vector2D.length">
+<summary>
+ The length of the vector, computed when the object is constructed
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:FSTutorial.DefiningClasses.Vector2D">
+<summary>
+ The class&apos;s constructor takes two arguments: dx and dy, both of type &apos;float&apos;. 
+</summary>
+</member>
+<member name="P:FSTutorial.DefiningClasses.vector2">
+<summary>
+ Get a new scaled vector object, without modifying the original object 
+</summary>
+</member>
+<member name="P:FSTutorial.DefiningClasses.vector1">
+<summary>
+ An instance of the Vector2D class
+</summary>
+</member>
+<member name="T:FSTutorial.DefiningClasses">
+
+</member>
+<member name="M:FSTutorial.Lists.sumOfSquaresUpTo``1(``0)">
+<summary>
+ Computes the sum of the squares of the numbers divisible by 3.
+</summary>
+</member>
+<member name="P:FSTutorial.Lists.squares">
+<summary>
+ Square the numbers in numberList, using the pipeline operator to pass an argument to List.map    
+</summary>
+</member>
+<member name="P:FSTutorial.Lists.blackSquares">
+<summary>
+ A list containing the tuples which are the coordinates of the black squares on a chess board.
+</summary>
+</member>
+<member name="P:FSTutorial.Lists.daysList">
+<summary>
+ list of integers from 1 to 1000
+ A list containing all the days of the year
+</summary>
+</member>
+<member name="P:FSTutorial.Lists.numberList">
+<summary>
+ a new list with &apos;42&apos; added to the beginning
+</summary>
+</member>
+<member name="P:FSTutorial.Lists.list3">
+<summary>
+ list of 3 elements
+</summary>
+</member>
+<member name="P:FSTutorial.Lists.list2">
+<summary>
+ an empty list
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="T:FSTutorial.Lists">
+
+</member>
+<member name="P:FSTutorial.Tuples.tuple2">
+<summary>
+ A tuple consisting of an integer, a string, and a double-precision floating point number
+</summary>
+</member>
+<member name="M:FSTutorial.Tuples.swapElems``2(``0,``1)">
+<summary>
+ A function that swaps the order of two values in a tuple. 
+ QuickInfo shows that the function is inferred to have a generic type.
+</summary>
+</member>
+<member name="P:FSTutorial.Tuples.tuple1">
+<summary>
+ A simple tuple of integers
+</summary>
+</member>
+<member name="T:FSTutorial.Tuples">
+
+</member>
+<member name="P:FSTutorial.StringManipulation.substring">
+<summary>
+ A string formed by taking the first 7 characters of one of the result strings
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="P:FSTutorial.StringManipulation.string4">
+<summary>
+ Using a triple-quote string literal
+</summary>
+</member>
+<member name="P:FSTutorial.StringManipulation.string3">
+<summary>
+ Use @ to create a verbatim string literal
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:FSTutorial.StringManipulation">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:FSTutorial.SomeBooleanValues">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="P:FSTutorial.BasicFunctions.result1">
+<summary>
+ Apply the function, naming the function return result using &apos;let&apos;. 
+ The variable type is inferred from the function return type.
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:FSTutorial.BasicFunctions">
+
+</member>
+<member name="P:FSTutorial.Integers.sampleTableOfSquares">
+<summary>
+ A list of all tuples containing all the numbers from 0 to 99 and their squares
+</summary>
+</member>
+<member name="P:FSTutorial.Integers.sampleNumbers">
+<summary>
+ A list of the numbers from 0 to 99
+</summary>
+</member>
+<member name="P:FSTutorial.Integers.sampleInteger2">
+<summary>
+ Do some arithmetic starting with the first integer
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="T:FSTutorial.Integers">
+
+</member>
+<member name="T:FSTutorial">
+
+</member>
+</members>
+</doc>

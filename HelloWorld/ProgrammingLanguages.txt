@@ -1,0 +1,19 @@
+C	Dennis MacAlistair Ritchie	1972
+C++	Bjarne Stroustrup	1985
+C#	Anders Hejlsberg	2000
+F#	Don Syme	2005
+Java	James A. Gosling	1991
+Pascal	Nicklaus Wirth	1970
+Python	Guido van Rossum	1997
+Basic	Kemeny and Kurtz	1964
+COBOL	Grace Hopper	1959
+FORTRAN	John Backus	1957
+LISP	John McCarthy	1956
+PERL	Larry Wall	1987
+JavaScript	Brendan Eich	1995
+Scheme	Steele and Sussman	1975
+Clojure	Rich Hickey	2007
+Haskell	Jones, Augustsson, et al.	1990
+Ruby	Yukihiro Matsumoto, et al.	1995
+OCaml	Xavier Leroy et al.	1996
+Scala	Martin Odersky	2003

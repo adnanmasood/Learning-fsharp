@@ -1,0 +1,12 @@
+﻿<NUnitProject>
+  <Settings activeconfig="Debug" />
+  <Config name="Debug" binpathtype="Auto">
+    <assembly path="bin\Debug\HelloWorld.Tests.dll" />
+    <assembly path="..\HelloWorld.ILTests\bin\Debug\HelloWorld.ILTests.dll" />
+    <assembly path="..\HelloWorld.ILTests\bin\Debug\HelloWorld.exe" />
+    <assembly path="..\HelloWorld.ILTests\bin\Debug\HelloWorld.ILTests.dll" />
+  </Config>
+  <Config name="Release" binpathtype="Auto">
+    <assembly path="..\HelloWorld.ILTests\bin\Release\HelloWorld.ILTests.dll" />
+  </Config>
+</NUnitProject>

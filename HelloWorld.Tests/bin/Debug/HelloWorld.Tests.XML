@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doc>
+<assembly><name>HelloWorld.Tests</name></assembly>
+<members>
+<member name="">
+
+</member>
+<member name="T:HelloWorld.Tests.Basic">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:HelloWorld.Tests.StackTests">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:Stacks">
+
+</member>
+</members>
+</doc>

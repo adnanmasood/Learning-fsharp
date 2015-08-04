@@ -1,0 +1,82 @@
+﻿module Sorting
+
+// Quick Sort
+let rec quickSort = function
+    | [] -> []
+    | n::ns -> let lessthan, greaterEqual = List.partition ((>) n) ns
+               quickSort lessthan @ n :: quickSort greaterEqual
+
+let rand = new System.Random()
+let data = List.init 10 (fun _  -> rand.Next())
+let result = quickSort data
+let result2 = List.sort data
+
+// Functional quick sort - lazy and incremental.
+let rec quickSort (pxs:seq<_>) = 
+    seq {
+        match Seq.toList pxs with
+        | p::xs -> let lessthan, greaterEqual = List.partition ((>=) p) xs
+                   yield! quickSort lessthan; yield p; yield! quickSort greaterEqual
+        | _ -> ()
+    }
+let rand = new System.Random()
+let data = List.init 10 (fun _  -> rand.Next())
+let result = Seq.toList (quickSort data)
+
+
+
+let result2 = List.sort data
+printfn "%A" result 
+
+data |> quickSort |> Seq.take 1    // sub second
+
+data |> quickSort |> Seq.length 
+
+quickSort [2, 9, 8, 10, 15]
+
+
+let sortedProcs =
+    query {
+        for proc in System.Diagnostics.Process.GetProcesses() do
+        let isWindowed = proc.MainWindowHandle <> nativeint 0
+        sortBy isWindowed
+        thenBy proc.ProcessName
+        select proc }
+
+
+/////////////////////////
+// Bubble Sort
+////////////////////////
+
+let swap x y (array : 'arr []) =
+    let temp = array.[x]
+    array.[x] <- array.[y]
+    array.[y] <- temp
+ 
+
+let bubbleSort array =
+    let rec loop (array : 'arr []) =
+        let mutable swaps = 0
+        for i = 0 to array.Length - 2 do
+            if array.[i] > array.[i+1] then
+                swap i (i+1) array
+                swaps <- swaps + 1
+ 
+        if swaps > 0 then loop array else array
+    loop array
+
+let rec getHighest list = 
+    match list with
+    | hd1 :: hd2 :: tl when hd1 > hd2 -> getHighest (hd1 :: tl)
+    | hd1 :: hd2 :: tl -> getHighest (hd2::t1)
+    | hd1 :: [] -> hd1
+    | _ -> failwith "unknown pattern"
+
+    let bubbleSort list = 
+        let rec innerBubbleSort sorted = function
+        | [] -> sorted
+        | l -> 
+            let x = getHighest l
+            let (a, b) = List.partition (fun i -> i = x) l
+            innerBubbleSort (a @ sorted) b
+        innerBubbleSort [] list

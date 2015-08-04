@@ -1,0 +1,117 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "HelloWorld.Tests", "HelloWorld.Tests\HelloWorld.Tests.fsproj", "{40A8E337-E187-459F-AABC-914A888023C5}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "HelloWorld", "HelloWorld\HelloWorld.fsproj", "{8EB279A1-6FDD-49EB-AEE8-6709B99016AF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{AB8D9D4F-B55A-45FE-8AF7-3ACEEC7EA728}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld.ILTests", "HelloWorld.ILTests\HelloWorld.ILTests.csproj", "{A749FB61-04B4-4489-8F58-446B1C3EC6ED}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "ILDemo", "ILDemo\ILDemo.fsproj", "{ECD2D2AC-A1FC-4D67-8095-E4D3F50B68EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ILDemoCS", "ILDemoCS\ILDemoCS.csproj", "{142B6524-4929-44DB-A45F-0B4DB11DF547}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FSTutorial", "FSTutorial\FSTutorial.fsproj", "{05E58E27-B73D-4822-825C-F7CDFFAA50B2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter 1", "Chapter 1", "{72BEAE69-1996-44B9-B60C-498A3551FFF1}"
+	ProjectSection(SolutionItems) = preProject
+		HelloWorld\Basics.fs = HelloWorld\Basics.fs
+		HelloWorld\PreReqs.fs = HelloWorld\PreReqs.fs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter 2", "Chapter 2", "{16E45B8E-51AB-415D-B007-BC8D0D02B0E7}"
+	ProjectSection(SolutionItems) = preProject
+		HelloWorld\Factorial.fs = HelloWorld\Factorial.fs
+		HelloWorld\Fibonacci.fs = HelloWorld\Fibonacci.fs
+		HelloWorld\Hanoi.fs = HelloWorld\Hanoi.fs
+		HelloWorld\HelloWorld.fs = HelloWorld\HelloWorld.fs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter 3", "Chapter 3", "{987A69E9-A807-417D-8381-BF2226AC16E3}"
+	ProjectSection(SolutionItems) = preProject
+		HelloWorld\Arrays.fs = HelloWorld\Arrays.fs
+		HelloWorld\Lists.fs = HelloWorld\Lists.fs
+		HelloWorld\Sequence.fs = HelloWorld\Sequence.fs
+		HelloWorld\SetsMaps.fs = HelloWorld\SetsMaps.fs
+		HelloWorld\Sorting.fs = HelloWorld\Sorting.fs
+		HelloWorld\Tuples.fs = HelloWorld\Tuples.fs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter 4", "Chapter 4", "{0FA988B3-469F-4463-8B5B-83EF3FD57340}"
+	ProjectSection(SolutionItems) = preProject
+		HelloWorld\Sequence.fs = HelloWorld\Sequence.fs
+		HelloWorld\SequenceandEnum.fs = HelloWorld\SequenceandEnum.fs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter 5", "Chapter 5", "{1AD21682-0FB3-4FAF-A208-395ABAD6730F}"
+	ProjectSection(SolutionItems) = preProject
+		HelloWorld\Stacks.fs = HelloWorld\Stacks.fs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter 6", "Chapter 6", "{FF03D98C-B496-4D83-A4B6-94486BCF413D}"
+	ProjectSection(SolutionItems) = preProject
+		HelloWorld\Trees.fs = HelloWorld\Trees.fs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter 7", "Chapter 7", "{C2053939-0088-42F0-9C1C-D22EEBD69D3C}"
+	ProjectSection(SolutionItems) = preProject
+		HelloWorld\Queue.fs = HelloWorld\Queue.fs
+		HelloWorld\QueueExt.fs = HelloWorld\QueueExt.fs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "chapter 8", "chapter 8", "{9F04AA1A-DB93-4BA6-997E-682413E7117C}"
+	ProjectSection(SolutionItems) = preProject
+		HelloWorld\dijkstra.fs = HelloWorld\dijkstra.fs
+		HelloWorld\Graph.fs = HelloWorld\Graph.fs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter 9", "Chapter 9", "{6DFCF522-CCA8-47DE-96DC-840AFD28DC2A}"
+	ProjectSection(SolutionItems) = preProject
+		HelloWorld\HelloWorld.fs = HelloWorld\HelloWorld.fs
+		HelloWorld\SetsMaps.fs = HelloWorld\SetsMaps.fs
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{40A8E337-E187-459F-AABC-914A888023C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40A8E337-E187-459F-AABC-914A888023C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40A8E337-E187-459F-AABC-914A888023C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40A8E337-E187-459F-AABC-914A888023C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EB279A1-6FDD-49EB-AEE8-6709B99016AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EB279A1-6FDD-49EB-AEE8-6709B99016AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EB279A1-6FDD-49EB-AEE8-6709B99016AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EB279A1-6FDD-49EB-AEE8-6709B99016AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A749FB61-04B4-4489-8F58-446B1C3EC6ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A749FB61-04B4-4489-8F58-446B1C3EC6ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A749FB61-04B4-4489-8F58-446B1C3EC6ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A749FB61-04B4-4489-8F58-446B1C3EC6ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECD2D2AC-A1FC-4D67-8095-E4D3F50B68EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECD2D2AC-A1FC-4D67-8095-E4D3F50B68EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECD2D2AC-A1FC-4D67-8095-E4D3F50B68EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECD2D2AC-A1FC-4D67-8095-E4D3F50B68EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{142B6524-4929-44DB-A45F-0B4DB11DF547}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{142B6524-4929-44DB-A45F-0B4DB11DF547}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{142B6524-4929-44DB-A45F-0B4DB11DF547}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{142B6524-4929-44DB-A45F-0B4DB11DF547}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05E58E27-B73D-4822-825C-F7CDFFAA50B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05E58E27-B73D-4822-825C-F7CDFFAA50B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05E58E27-B73D-4822-825C-F7CDFFAA50B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05E58E27-B73D-4822-825C-F7CDFFAA50B2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
